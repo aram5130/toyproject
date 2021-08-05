@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Up and Down</title>
+</head>
+<body>
+    <div id="game_wrap">
+        <h1>Up and Down</h1>
+    <h3>1부터 100까지 랜덤으로 나온 숫자를 맞춰봅니다!</h3>
+    <form>
+		<p>숫자 : <input type="text" id="plyernumber">
+		<input type="button" id="btn" value="확인" onclick="guess()"></p>
+		<p>추측횟수: <input type="text" id="guesses"></p>
+        <p>힌트 : <input type="text" id="result"></p>
+	</form>
+	<div id="area"></div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
